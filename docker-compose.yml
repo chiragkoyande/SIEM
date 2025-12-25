@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  siem-app:
+    build: .
+    container_name: sentinelwatch-siem
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONPATH=/app
+      - DATABASE_URL=sqlite:///sentinelwatch.db
+      - CORS_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
+    volumes:
+      - ./logs:/app/logs
+      - ./sentinelwatch.db:/app/sentinelwatch.db
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Optional: Add nginx for production
+  nginx:
+    image: nginx:alpine
+    container_name: siem-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - siem-app
+    restart: unless-stopped
+    profiles:
+      - production
