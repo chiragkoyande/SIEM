@@ -1,4 +1,4 @@
-# SentinelWatch SIEM
+![dashboard](https://github.com/user-attachments/assets/db7e08c7-35bf-4972-becc-3a66fbc74861)# SentinelWatch SIEM
 
 SentinelWatch is a lightweight **SIEM (Security Information and Event Management)** demo built with **FastAPI** (backend) and a simple **HTML + Tailwind + Chart.js** dashboard (frontend).
 
@@ -28,7 +28,8 @@ SentinelWatch is a lightweight **SIEM (Security Information and Event Management
   - `index.html`
   - `assets/dashboard.js`
 ## web photos 
-![Dashboard Screenshot]([images/dashboard![Uploading dashboard.jpeg…]()![dashboard1](https://github.com/user-attachments/assets/3e43e0a8-5f5f-4885-a4b9-5a60904f2f2a)![dashboard2](https://github.com/user-attachments/assets/2904b259-757f-4296-aba5-5eb77b0e8c15)![dashboard3](https://github.com/user-attachments/assets/eaa50492-57c7-414a-8577-f09f291def21)
+![dashboard1](https://github.com/user-attachments/assets/3e43e0a8-5f5f-4885-a4b9-5a60904f2f2a)![dashboard2](https://github.com/user-attachments/assets/2904b259-757f-4296-aba5-5eb77b0e8c15)![dashboard3](https://github.com/user-attachments/assets/eaa50492-57c7-414a-8577-f09f291def21)![dashboard](https://github.com/user-attachments/assets/064e42d2-9f92-4a2e-9811-b51503ea1421)
+
 
 
 
