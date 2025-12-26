@@ -28,10 +28,14 @@ SentinelWatch is a lightweight **SIEM (Security Information and Event Management
   - `index.html`
   - `assets/dashboard.js`
 ## web photos 
-![Dashboard Screenshot](images/dashboard.png)
-![Dashboard Screenshot](images/dashboard2.png)
-![Dashboard Screenshot](images/dashboard3.png)
-![Dashboard Screenshot](images/dashboard4.png)
+![Dashboard Screenshot]([images/dashboard.png](https://github.com/chiragkoyande/SIEM/blob/main/images/dashboard.jpeg?raw=true
+)
+![Dashboard Screenshot]([images/dashboard1.png](https://github.com/chiragkoyande/SIEM/blob/main/images/dashboard.jpeg?raw=true
+)
+![Dashboard Screenshot]([images/dashboard2.png](https://github.com/chiragkoyande/SIEM/blob/main/images/dashboard.jpeg?raw=true
+)
+![Dashboard Screenshot]([images/dashboard3.png](https://github.com/chiragkoyande/SIEM/blob/main/images/dashboard.jpeg?raw=true
+)
 ## Requirements
 
 - Python 3.10+ (recommended)
