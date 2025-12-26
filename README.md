@@ -46,16 +46,15 @@ pip install -r requirements.txt
 python main.py
 ```
 
-### Option B: Run via scripts
-
-- `run_server.bat`
-- `run_server.ps1`
-
-After starting, open:
-
-- Dashboard: `http://127.0.0.1:8000/`
-- API docs (Swagger): `http://127.0.0.1:8000/docs`
-- Health check: `http://127.0.0.1:8000/health`
+---
+title: Sentinelwatch Siem
+emoji: 🛡️
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+pinned: false
+app_port: 8000
+---
 
 ## API Endpoints
 
