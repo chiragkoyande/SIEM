@@ -1,7 +1,10 @@
 import sys
 import os
 
-
+# Add this somewhere in your api/index.py file
+@app.get("/")
+def home():
+    return {"message": "Welcome to SentinelWatch SIEM! The API is running."}
 # This stops the "ModuleNotFoundError: backend" error
 current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(current_dir)
