@@ -46,15 +46,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
----
-title: Sentinelwatch Siem
-emoji: 🛡️
-colorFrom: blue
-colorTo: indigo
-sdk: docker
-pinned: false
-app_port: 8000
----
+
 
 ## API Endpoints
 
@@ -83,18 +75,6 @@ app_port: 8000
 - `GET /api/alerts/export?format=csv`
 
 The dashboard "Export CSV" button uses this endpoint.
-
-### CV (Added)
-
-- `GET /api/cv/view`
-  - Opens an HTML CV page in a new tab.
-- `GET /api/cv/download`
-  - Downloads the CV as a text file.
-
-The dashboard header includes:
-
-- `View CV`
-- `Download CV`
 
 ## Notes
 
